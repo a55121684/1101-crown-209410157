@@ -9,11 +9,11 @@ export default function ShopTwoPage_57() {
   const [mens, setMens] = useState(mensData);
   return (
     <div>
-      <div class="shop-page">
-        <div class="collection-overview">
-          <div class="collection-preview">
-            <h1 class="title">Mens</h1>
-            <div class="preview">
+      <div className="shop-page">
+        <div className="collection-overview">
+          <div className="collection-preview">
+            <h1 className="title">Mens</h1>
+            <div className="preview">
               {mens.map((item) => {
                 const { id, name, remoteUrl, price } = item;
                 return (
@@ -28,9 +28,9 @@ export default function ShopTwoPage_57() {
             </div>
           </div>
 
-          <div class="collection-preview">
-            <h2 class="title">Jackets</h2>
-            <div class="preview">
+          <div className="collection-preview">
+            <h2 className="title">Jackets</h2>
+            <div className="preview">
               {jackets.map((item) => {
                 const { id, name, remoteUrl, price } = item;
                 return (
