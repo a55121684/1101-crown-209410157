@@ -1,4 +1,8 @@
 # 第一題
+
+![](img/file.png)
+![](img/messageImage_1634210222805.jpg)
+
 ## => App_57.js
 
 ```
@@ -74,7 +78,12 @@ export default App;
 ```
 
 # 第二題
+
+![](img/messageImage_1634210222805.jpg)
+![](/img/file2.png)
+
 ## => Homepage_57.js
+
 ```
 import React from "react";
 import Directory_57 from "../components/Directory_57";
@@ -90,6 +99,7 @@ export default function Homepage_57() {
 ```
 
 ## => Directory_57_57.js
+
 ```
 import React from "react";
 import "./Directory_57.scss";
@@ -99,7 +109,7 @@ export default function Directory_57() {
   return (
     <div>
       <div className="directory-menu">
-          
+
         <MenuItem_57
           name={"HATS"}
           size={""}
@@ -132,6 +142,7 @@ export default function Directory_57() {
 ```
 
 ## => MenuItem_57.js
+
 ```
 import React from "react";
 import "./MenuItem_57.scss";
@@ -150,7 +161,11 @@ export default function MenuItem_57({ name, remoteUrl, size }) {
 ```
 
 # 第三題
+
+![](img/messageImage_1634210222805.jpg)
+
 ## => MenuItemData.js
+
 ```
 const items = [
   {
@@ -188,7 +203,8 @@ const items = [
 export default items;
 ```
 
-## =>  Directory_57_57.js
+## => Directory_57_57.js
+
 ```
 import React, { useState } from "react";
 import "./Directory_57.scss";
@@ -216,3 +232,73 @@ export default function Directory_57() {
   );
 }
 ```
+
+# 第四題
+
+[Github](https://github.com/a55121684/1101-crown-209410157)
+
+## local
+
+![](img/local.png)
+
+## Ghpage
+
+![](img/ghpage.png)
+
+# 第五題
+
+[Github](https://github.com/a55121684/1101-crown-209410157)
+
+## Ghpage
+
+![](img/setting.png)
+[GithubPage](https://a55121684.github.io/1101-crown-209410157/)
+![](img/ghpage.png)
+
+# 第六題
+
+## =>App.js
+
+![](img/contact.png)
+![](img/local.png)
+
+```
+import Homepage_57 from "./pages/Homepage_57";
+import ShopTwoPage_57 from "./pages/ShopTwoPage_57";
+import { Switch, Route } from "react-router";
+
+import SignInPage from "./pages/SignInPage_57";
+import ContactPage from "./pages/ContactPage_57";
+import Header_57 from "./components/Header_57";
+
+function App() {
+  return (
+    <div>
+      <Header_57 />
+
+      <Switch>
+        <Route path="/" exact>
+          <Homepage_57 />
+        </Route>
+        <Route path="/shop_57" exact>
+          <ShopTwoPage_57 />
+        </Route>
+        <Route path="/contact_57" exact>
+          <ContactPage />
+        </Route>
+        <Route path="/signin_57" exact>
+          <SignInPage />
+        </Route>
+      </Switch>
+    </div>
+  );
+}
+
+export default App;
+```
+
+# 第七題
+
+# 第八題
+
+# 第九題
