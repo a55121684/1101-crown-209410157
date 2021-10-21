@@ -6,18 +6,18 @@ import "./Header_57.scss";
 export default function Header_57() {
   return (
     <div>
-      <div class="header">
-        <Link to="/" class="logo-container">
+      <div className="header">
+        <Link to="/" className="logo-container">
           <Logo />
         </Link>
-        <div class="options">
-          <Link to="/shop_57" class="option">
+        <div className="options">
+          <Link to="/shop_57" className="option">
             Shop
           </Link>
-          <Link to="/contact_57" class="option">
+          <Link to="/contact_57" className="option">
             Contact
           </Link>
-          <Link to="/signin_57" class="option">
+          <Link to="/signin_57" className="option">
             Sign In
           </Link>
         </div>
