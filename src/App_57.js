@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header_57 />
-      <Homepage_57 />
+  
       <Switch>
         <Route path="/" exact>
           <Homepage_57 />
